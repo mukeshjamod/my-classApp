@@ -1,7 +1,7 @@
-import React  from 'react';
+//import React  from 'react';
 import './App.css';
-import UserFinder from './components/UserFinder';
-import UsersContext from './store/users-context';
+//import UserFinder from './components/UserFinder';
+//import UsersContext from './store/users-context';
 
 const DUMMY_USERS = [
   { id: 'u1', name: 'Mahi' },
@@ -17,10 +17,8 @@ function App() {
 
 
   return (
-    <UsersContext.Provider value={usersContext}>
-      <UserFinder/>
-    </UsersContext.Provider>
-
+    
+<div></div>
   
   );
 }
