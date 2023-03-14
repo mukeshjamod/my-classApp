@@ -106,7 +106,7 @@ function App() {
 
     return(
       <React.Fragment>
-        <section>
+        <section >
           <AddMovie onAddMovie={addMovieHandler} />
         </section>
         <section>

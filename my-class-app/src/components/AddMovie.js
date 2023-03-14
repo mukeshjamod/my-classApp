@@ -29,11 +29,11 @@ function AddMovie (props) {
                 
             </div>
             <div className={classes.control}>
-                <label htmlFor='opening-text'>opening Text</label>
+                <label htmlFor='opening-text'>Opening Text</label>
                 <textarea rows='5' id='opening-text' ref={openingTextRef}></textarea>
             </div>
             <div className={classes.control}>
-                <label htmlFor='date'>release Date</label>
+                <label htmlFor='date'>Release Date</label>
                 <input type='text' id='date' ref={releaseDateRef}></input>
             </div>
             <button>Add Movie</button>
@@ -41,4 +41,4 @@ function AddMovie (props) {
     )
 }
 
-export default AddMovie
+export default AddMovie;
