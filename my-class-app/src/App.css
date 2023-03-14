@@ -1,36 +1,30 @@
-.section{
-  margin:1rem;
+
+section {
+  margin: 1rem auto;
   width: 90%;
   max-width: 40rem;
-  
-  background-color: beige;
+  text-align: center;
+  background-color: white;
   padding: 2rem;
   border-radius: 12px;
-  text-align: center;
 }
 
-button{
-  margin: 5px auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
-  /* font: inherit;
+button {
+  font: inherit;
   cursor: pointer;
-  background:#282c34;
-  border:1px solid #230052;
-  color: beige;
+  background: #230052;
+  border: 1px solid #230052;
+  color: white;
   padding: 0.75rem 2rem;
-  border-radius: 20px; */
-  
-  
+  border-radius: 20px;
 }
- button:focus{
-  outline: none;
- }
 
- button:hover,
- button:active{
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
   background-color: #460897;
   border-color: #460897;
- }
-
+}
